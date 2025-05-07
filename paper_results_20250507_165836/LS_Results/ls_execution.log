@@ -1,0 +1,15 @@
+Starting LS.py execution...
+Processing LS for environment: environment0
+[environment0] Average Localization Error (LS): 0.3176 meters
+[environment0] Average Execution Time (LS): 0.169012 seconds
+Processing LS for environment: environment1
+[environment1] Average Localization Error (LS): 0.1074 meters
+[environment1] Average Execution Time (LS): 0.138070 seconds
+Processing LS for environment: environment2
+[environment2] Average Localization Error (LS): 0.4359 meters
+[environment2] Average Execution Time (LS): 0.126032 seconds
+Processing LS for environment: environment3
+[environment3] Average Localization Error (LS): 0.3506 meters
+[environment3] Average Execution Time (LS): 0.138953 seconds
+LS detailed results saved to /home/mount/UWB_Locate/paper_results_20250507_165836/LS_Results/LS_detailed_errors.csv
+LS.py execution finished.
