@@ -1,0 +1,19 @@
+Starting RL.py with args: Namespace(dataset_base_dir='/home/mount/UWB_Locate/data_set', experiment_tag='RL_CrossValid_TestOn_environment0', features_to_use='energy,max_amp,rise_time,delay_spread,rms_delay,kurtosis', output_base_dir='/home/mount/UWB_Locate/paper_results_20250507_172039/RL_CrossValidation_AllFeatures', test_env='environment0', train_envs='environment1,environment2,environment3')
+Cross-validation mode: Training on ['environment1', 'environment2', 'environment3'], Testing on environment0
+Using features: ['energy', 'max_amp', 'rise_time', 'delay_spread', 'rms_delay', 'kurtosis']
+  GMM Training (Cross-Val Mode) - Starting for train_envs: ['environment1', 'environment2', 'environment3']
+    Loading training data from: environment1
+    Loading training data from: environment2
+    Loading training data from: environment3
+  GMM Training (Cross-Val Mode) - Total samples: 277673, Features (incl. dist): 7
+  GMM Training (Cross-Val Mode) - EM finished in 100 iterations. Model is_trained: True
+  GMM Training (Cross-Val Mode) - Completed in 691.77 seconds.
+
+Processing Test Environment: environment0 (1/1)
+  Testing RL on environment: environment0 - Starting...
+    Test Run Iteration: 1/1 for environment0
+      Testing agent_pos: 17/17 ('3.44_10.63_1.20')
+    Test Run Iteration 1 for environment0 took 49.38s. Mean error: 2.108249417663643
+  [RL_CrossValid_TestOn_environment0][Test Env: environment0] Overall Avg Error: 2.1082 m, Overall Avg Time: 49.383 s
+RL detailed results for this run saved to /home/mount/UWB_Locate/paper_results_20250507_172039/RL_CrossValidation_AllFeatures/RL_RL_CrossValid_TestOn_environment0_train_environment1+environment2+environment3_test_environment0_feats_E_MA_RT_DS_RMSD_K.csv
+RL.py execution finished for experiment: RL_CrossValid_TestOn_environment0

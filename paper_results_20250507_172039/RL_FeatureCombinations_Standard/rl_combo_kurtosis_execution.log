@@ -26,3 +26,24 @@ Processing Test Environment: environment1 (2/4)
 
 Processing Test Environment: environment2 (3/4)
   GMM Training (Standard Mode) - Starting for: environment2
+  GMM Training (Standard Mode) - Samples for environment2: 87230, Features (incl. dist): 2
+  GMM Training (Standard Mode) - EM finished in 100 iterations for environment2. Model is_trained: True
+  GMM Training (Standard Mode) - Completed for environment2 in 228.36 seconds.
+  Testing RL on environment: environment2 - Starting...
+    Test Run Iteration: 1/1 for environment2
+      Testing agent_pos: 17/17 ('20.30_2.20_1.32')
+    Test Run Iteration 1 for environment2 took 44.27s. Mean error: 9.332687277600709
+  [RL_Combo_kurtosis][Test Env: environment2] Overall Avg Error: 9.3327 m, Overall Avg Time: 44.271 s
+
+Processing Test Environment: environment3 (4/4)
+  GMM Training (Standard Mode) - Starting for: environment3
+  GMM Training (Standard Mode) - Samples for environment3: 95211, Features (incl. dist): 2
+  GMM Training (Standard Mode) - EM finished in 100 iterations for environment3. Model is_trained: True
+  GMM Training (Standard Mode) - Completed for environment3 in 238.30 seconds.
+  Testing RL on environment: environment3 - Starting...
+    Test Run Iteration: 1/1 for environment3
+      Testing agent_pos: 17/17 ('10.78_11.15_1.20')
+    Test Run Iteration 1 for environment3 took 58.78s. Mean error: 4.295397217640142
+  [RL_Combo_kurtosis][Test Env: environment3] Overall Avg Error: 4.2954 m, Overall Avg Time: 58.776 s
+RL detailed results for this run saved to /home/mount/UWB_Locate/paper_results_20250507_172039/RL_FeatureCombinations_Standard/RL_RL_Combo_kurtosis_std_allenvs_feats_K.csv
+RL.py execution finished for experiment: RL_Combo_kurtosis

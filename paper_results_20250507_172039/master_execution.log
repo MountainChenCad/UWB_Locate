@@ -29,3 +29,35 @@ RL (Default) execution log: /home/mount/UWB_Locate/paper_results_20250507_172039
   Running RL with features: [rms_delay] (Tag: rms_delay)
   RL with features [rms_delay] completed.
   Running RL with features: [kurtosis] (Tag: kurtosis)
+  RL with features [kurtosis] completed.
+  Running RL with features: [energy,max_amp,rise_time] (Tag: energy_max_amp_rise_time)
+  RL with features [energy,max_amp,rise_time] completed.
+  Running RL with features: [delay_spread,rms_delay,kurtosis] (Tag: delay_spread_rms_delay_kurtosis)
+  RL with features [delay_spread,rms_delay,kurtosis] completed.
+  Running RL with features: [energy,delay_spread] (Tag: energy_delay_spread)
+  RL with features [energy,delay_spread] completed.
+  Running RL with features: [energy,max_amp,rise_time,delay_spread,rms_delay,kurtosis] (Tag: energy_max_amp_rise_time_delay_spread_rms_delay_kurtosis)
+  RL with features [energy,max_amp,rise_time,delay_spread,rms_delay,kurtosis] completed.
+RL Feature Combination Analysis completed.
+RL Feature Combination results are in: /home/mount/UWB_Locate/paper_results_20250507_172039/RL_FeatureCombinations_Standard
+--------------------------------------------------------------------------------
+
+[STEP 5/5] Running RL - Cross-Environment Validation (Leave-One-Out, All 6 Features)...
+  Cross-Validation: Training on [environment1,environment2,environment3], Testing on [environment0]
+  Cross-validation for Test Env [environment0] completed.
+  Cross-Validation: Training on [environment0,environment2,environment3], Testing on [environment1]
+  Cross-validation for Test Env [environment1] completed.
+  Cross-Validation: Training on [environment0,environment1,environment3], Testing on [environment2]
+  Cross-validation for Test Env [environment2] completed.
+  Cross-Validation: Training on [environment0,environment1,environment2], Testing on [environment3]
+  Cross-validation for Test Env [environment3] completed.
+RL Cross-Environment Validation completed.
+RL Cross-Validation results are in: /home/mount/UWB_Locate/paper_results_20250507_172039/RL_CrossValidation_AllFeatures
+--------------------------------------------------------------------------------
+
+================================================================================
+ All Automated Experiments Finished.
+ End Time: Wed May  7 21:50:54 CST 2025
+ Master log: /home/mount/UWB_Locate/paper_results_20250507_172039/master_execution.log
+ Check subdirectories in /home/mount/UWB_Locate/paper_results_20250507_172039 for detailed outputs and logs.
+================================================================================
