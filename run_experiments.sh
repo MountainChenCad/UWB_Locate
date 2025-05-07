@@ -23,9 +23,9 @@ echo
 # Dataset directory (relative to project root)
 DATASET_DIR="$BASE_PROJECT_DIR/data_set" # Preprocessed data will go here
 
-## --- 1. Data Preprocessing ---
-#echo "[STEP 1/5] Running Data Preprocessing..."
-#PREPROCESS_LOG="$RESULTS_DIR/preprocess.log"
+# --- 1. Data Preprocessing ---
+echo "[STEP 1/5] Running Data Preprocessing..."
+PREPROCESS_LOG="$RESULTS_DIR/preprocess.log"
 #if $PYTHON_EXECUTABLE preprocess_data.py > "$PREPROCESS_LOG" 2>&1; then
 #    echo "Data preprocessing completed successfully."
 #else

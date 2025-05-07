@@ -1,0 +1,31 @@
+================================================================================
+ UWB Localization Experiment Automation Script 
+ Start Time: Wed May  7 17:20:39 CST 2025
+ Results will be saved in: /home/mount/UWB_Locate/paper_results_20250507_172039
+================================================================================
+
+[STEP 1/5] Running Data Preprocessing...
+[STEP 2/5] Running Least Squares (LS) Experiments...
+LS experiments completed successfully.
+LS results are in: /home/mount/UWB_Locate/paper_results_20250507_172039/LS_Results
+LS execution log: /home/mount/UWB_Locate/paper_results_20250507_172039/LS_Results/ls_execution.log
+--------------------------------------------------------------------------------
+
+[STEP 3/5] Running RL (Default - All 6 Features, Standard Train/Test)...
+RL (Default) experiments completed successfully.
+RL (Default) results are in: /home/mount/UWB_Locate/paper_results_20250507_172039/RL_DefaultAllFeatures_Standard
+RL (Default) execution log: /home/mount/UWB_Locate/paper_results_20250507_172039/RL_DefaultAllFeatures_Standard/rl_default_execution.log
+--------------------------------------------------------------------------------
+
+[STEP 4/5] Running RL - Feature Combination Analysis (Standard Train/Test)...
+  Running RL with features: [energy] (Tag: energy)
+  RL with features [energy] completed.
+  Running RL with features: [max_amp] (Tag: max_amp)
+  RL with features [max_amp] completed.
+  Running RL with features: [rise_time] (Tag: rise_time)
+  RL with features [rise_time] completed.
+  Running RL with features: [delay_spread] (Tag: delay_spread)
+  RL with features [delay_spread] completed.
+  Running RL with features: [rms_delay] (Tag: rms_delay)
+  RL with features [rms_delay] completed.
+  Running RL with features: [kurtosis] (Tag: kurtosis)

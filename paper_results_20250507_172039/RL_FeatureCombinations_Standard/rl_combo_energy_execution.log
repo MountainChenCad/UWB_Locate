@@ -1,0 +1,49 @@
+Starting RL.py with args: Namespace(dataset_base_dir='/home/mount/UWB_Locate/data_set', experiment_tag='RL_Combo_energy', features_to_use='energy', output_base_dir='/home/mount/UWB_Locate/paper_results_20250507_172039/RL_FeatureCombinations_Standard', test_env=None, train_envs=None)
+Standard mode: Training and testing on each environment individually.
+Using features: ['energy']
+
+Processing Test Environment: environment0 (1/4)
+  GMM Training (Standard Mode) - Starting for: environment0
+  GMM Training (Standard Mode) - Samples for environment0: 101177, Features (incl. dist): 2
+  GMM Training (Standard Mode) - EM finished in 100 iterations for environment0. Model is_trained: True
+  GMM Training (Standard Mode) - Completed for environment0 in 220.04 seconds.
+  Testing RL on environment: environment0 - Starting...
+    Test Run Iteration: 1/1 for environment0
+      Testing agent_pos: 17/17 ('3.44_10.63_1.20')
+    Test Run Iteration 1 for environment0 took 49.70s. Mean error: 5.838073272317645
+  [RL_Combo_energy][Test Env: environment0] Overall Avg Error: 5.8381 m, Overall Avg Time: 49.699 s
+
+Processing Test Environment: environment1 (2/4)
+  GMM Training (Standard Mode) - Starting for: environment1
+  GMM Training (Standard Mode) - Samples for environment1: 95232, Features (incl. dist): 2
+  GMM Training (Standard Mode) - EM finished in 100 iterations for environment1. Model is_trained: True
+  GMM Training (Standard Mode) - Completed for environment1 in 214.10 seconds.
+  Testing RL on environment: environment1 - Starting...
+    Test Run Iteration: 1/1 for environment1
+      Testing agent_pos: 16/16 ('1.24_4.40_0.95')
+    Test Run Iteration 1 for environment1 took 42.46s. Mean error: 1.1525059001551083
+  [RL_Combo_energy][Test Env: environment1] Overall Avg Error: 1.1525 m, Overall Avg Time: 42.457 s
+
+Processing Test Environment: environment2 (3/4)
+  GMM Training (Standard Mode) - Starting for: environment2
+  GMM Training (Standard Mode) - Samples for environment2: 87230, Features (incl. dist): 2
+  GMM Training (Standard Mode) - EM finished in 100 iterations for environment2. Model is_trained: True
+  GMM Training (Standard Mode) - Completed for environment2 in 196.77 seconds.
+  Testing RL on environment: environment2 - Starting...
+    Test Run Iteration: 1/1 for environment2
+      Testing agent_pos: 17/17 ('20.30_2.20_1.32')
+    Test Run Iteration 1 for environment2 took 45.85s. Mean error: 10.915505210423605
+  [RL_Combo_energy][Test Env: environment2] Overall Avg Error: 10.9155 m, Overall Avg Time: 45.846 s
+
+Processing Test Environment: environment3 (4/4)
+  GMM Training (Standard Mode) - Starting for: environment3
+  GMM Training (Standard Mode) - Samples for environment3: 95211, Features (incl. dist): 2
+  GMM Training (Standard Mode) - EM finished in 100 iterations for environment3. Model is_trained: True
+  GMM Training (Standard Mode) - Completed for environment3 in 216.23 seconds.
+  Testing RL on environment: environment3 - Starting...
+    Test Run Iteration: 1/1 for environment3
+      Testing agent_pos: 17/17 ('10.78_11.15_1.20')
+    Test Run Iteration 1 for environment3 took 47.91s. Mean error: 6.18026134581269
+  [RL_Combo_energy][Test Env: environment3] Overall Avg Error: 6.1803 m, Overall Avg Time: 47.911 s
+RL detailed results for this run saved to /home/mount/UWB_Locate/paper_results_20250507_172039/RL_FeatureCombinations_Standard/RL_RL_Combo_energy_std_allenvs_feats_E.csv
+RL.py execution finished for experiment: RL_Combo_energy
